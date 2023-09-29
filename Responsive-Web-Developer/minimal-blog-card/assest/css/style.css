@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+
+    --purple: #883AE1;
+    --purple-light: #E6D6FC;
+    --light-gray: #E5EAF0;
+    --bold-gray: #20293A;
+    --medium-gray: #6C727F;
+    --bacground-color: #FAFAF9;
+
+}
+
+body {
+    font-family: 'Sora', sans-serif;
+    font-size: 1.6rem;
+}
+
+#app {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--bacground-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card {
+    width: 36.8rem;
+    background-color: white;
+    border-radius: 1.5rem;
+    box-shadow: 0px 20px 50px 0px rgba(17, 23, 41, 0.15);
+}
+
+.body-card {
+    padding: 1.6rem 1.6rem 2rem;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+figcaption {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--purple);
+    width: fit-content;
+    padding: .6rem 1.6rem;
+    background-color: var(--purple-light);
+    border-radius: 10rem;
+    margin-bottom: 1.6rem;
+}
+
+figure img {
+    width: 100%;
+    height: 15.2rem;
+    object-fit: cover;
+    border-radius: 1.8rem;
+}
+
+h1 {
+    font-size: 1.8rem;
+    color: var(--bold-gray);
+    margin-bottom: .6rem;
+}
+
+p {
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 150%;
+    color: var(--medium-gray);
+}
+
+.author-name {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--medium-gray);
+}
+
+.footer-card {
+    border-top: 1px solid var(--light-gray);
+}
+
+.footer-card span {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--medium-gray);
+    display: block;
+    margin: 2rem 1.6rem;
+    border-radius: 0 0 2rem 2rem;
+}
